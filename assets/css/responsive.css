@@ -1,0 +1,524 @@
+
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+    .box-body:after {
+        max-width: 1116px;
+    }
+    .text-box.lg {
+        max-width: 1007px;
+    }
+    .Amap__nav ul li a:after{border-width: 23px 85px 0px 85px;}
+}
+
+/* Big screen :1400px. */
+@media (min-width: 1400px) and (max-width: 1600px) {
+
+    .box-body:after {
+        max-width: 1295px !important;
+    }
+    
+}
+
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .box-body:after {
+        max-width: 937px;
+    }
+    .text-box {
+        max-width: 80%;
+    }
+    .text-box.lg {
+        max-width: 830px;
+    }
+    .Activity__blk thead th {
+        font-size: 12px;
+    }
+    .Evaluation__blk .flex {
+        gap: 26px;
+    }
+    
+    .Evaluation__blk .flex ul li span {
+        font-size: 16px;
+    }
+    
+    .acMap__blk {
+        width: calc(25% - 16px);
+    }
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .box-body:after {
+        max-width: 697px;
+    }
+    .Product__blk ul li a {
+        width: 200px;
+        height: 48px;
+    }
+    
+    .text-box {
+        max-width: 90%;
+    }
+    
+    .header__text {
+        margin-top: 20px;
+    }
+    .brand__logo ul {
+        padding: 0 20px;
+    }
+    .text-box.lg {
+        max-width: 589px;
+    }
+
+    .login__modal__left i {
+        display: none;
+    }
+    
+    .login__modal {
+        flex-direction: column;
+        overflow: auto;
+        height: 90vh;
+    }
+    
+    .login__modal__left,.login__modal__right {
+        width: 100%;
+    }
+    
+    .login__modal__left p {
+        margin: 20px 0 0;
+    }
+    
+    .login__modal__right {
+        padding: 50px 40px 48px;
+    }
+    .dashb__Name__blk {
+        flex-wrap: wrap;
+        margin-top: -20px;
+    }
+    
+    .dashb__Name__blk ul {
+        width: 50%;
+    }
+    
+    .table__flex {
+        flex-direction: column;
+    }
+    
+    .Activity__blk {
+        width: 100%;
+    }
+    .Ingredient__right {
+        padding-left: 16px;
+    }
+    
+    .usage__blk ul {
+        flex-wrap: wrap;
+        gap: 20px 0;
+    }
+    
+    .usage__blk ul li {
+        width: 33%;
+    }
+    
+    .profile__blk .flex {
+        flex-direction: column;
+    }
+    
+    .sgl__profile {
+        width: 100%;
+    }
+    .Evaluation__blk .flex {
+        gap: 26px;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .Evaluation__blk .flex ul li span {
+        font-size: 16px;
+    }
+    
+    .acMap__blk {
+        width: calc(33% - 16px);
+    }
+    .Activity__MAP {
+        max-width: calc(100% - 80px);
+    }
+    
+    .Evaluation__blk {
+        max-width: calc(100% - 80px);
+    }
+    
+    .Evaluation__blk .flex h4 {
+        max-width: 100%;
+    }
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .logo-area a svg{
+    max-width: 110px;
+}
+    .box-body:after {
+        max-width: calc(100% - 20px);
+    }
+    .Product__blk ul li a {
+        width: 100%;
+        height: 48px;
+        font-size: 16px;
+    }
+    
+    .text-box {
+        max-width: 90%;
+    }
+
+.text-box.lg {
+    max-width: 90%;
+}
+    
+    .header__text {
+        margin-top: 20px;
+        padding: 0 16px;
+    }
+    .Product__blk > img {
+        display: none;
+    }
+    
+    .Product__blk ul li {
+        width: 48%;
+    }
+    
+    .textBox__btn {
+        flex-direction: column;
+        padding: 0 30px;
+    }
+    
+    .textBox__btn button {
+        font-size: 14px;
+        padding: 0 20px;
+        width: 100%;
+    }
+    .brand__logo ul {
+        padding: 0 0px;
+        flex-wrap: wrap;
+    }
+
+.brand__logo ul li {
+    width: 40%;
+}
+    .mail__box {
+        flex-wrap: wrap;
+    }
+    
+    img.nl-left {
+        display: none;
+    }
+    
+    img.nl-right {
+        display: none;
+    }
+    
+    .newsLatter__blk {
+        padding: 40px 20px;
+    }
+
+.newsLatter__blk h2 {
+    font-size: 28px;
+}
+    
+    .brand__logo {
+        padding: 30px;
+    }
+    button.delet {
+        margin-left: 20px;
+    }
+    .header__option a.cnn__btn {
+        height: 42px;
+        padding: 0 20px;
+    }
+    
+    .header__option button {
+        height: 42px;
+        width: 42px;
+    }
+
+    .login__modal__left i {
+        display: none;
+    }
+    
+    .login__modal {
+        flex-direction: column;
+        overflow: auto;
+        height: 90vh;
+    }
+    
+    .login__modal__left,.login__modal__right {
+        width: 100%;
+    }
+    
+    .login__modal__left p {
+        margin: 20px 0 0;
+    }
+    
+    .login__modal__right {
+        padding: 34px 24px 32px;
+    }
+
+.input__blk input {
+    height: 44px;
+}
+
+.login__btns {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.login__modal__right h3 {
+    font-size: 28px;
+}
+.modal__content > h3{
+    font-size: 24px;
+}
+
+.modal__body {
+    padding: 26px 20px;
+}
+
+.modalClose {
+    width: 40px;
+    height: 40px;
+}
+.modal__footer{
+    flex-direction: column;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.modal__footer.mt_70 {
+    margin-top: 20px;
+}
+
+.btns__grp {
+    width: 100%;
+}
+
+.btns__grp button {
+    width: 50%;
+    display: block;
+}
+.pass__blk button {
+    position: absolute;
+    right: 0;
+    border: none;
+    width: 48px;
+}
+
+.pass__blk button span {
+    display: none;
+    width: auto;
+}
+.pass__submitted h3{
+    font-size: 24px;
+}
+.pass__submitted i {
+    display: block;
+    max-width: 140px;
+    margin: auto;
+}
+.dashb__Name__blk {
+    flex-wrap: wrap;
+}
+
+.dashb__Name__blk ul {
+    width: 50%;
+}
+
+.table__flex {
+    flex-direction: column;
+}
+
+.Activity__blk {
+    width: 100%;
+}
+
+.Activity__blk > div {
+    overflow: auto;
+}
+.Activity__blk table {
+    min-width: 500px;
+}
+.Ingredient__right {
+    padding-left: 0;
+}
+
+.usage__blk ul {
+    flex-wrap: wrap;
+    gap: 20px 0;
+}
+
+.usage__blk ul li {
+    width: 33%;
+}
+
+.usage__blk ul li:nth-child(3) {
+    border: none;
+}
+
+.profile__blk .flex {
+    flex-direction: column;
+}
+
+.sgl__profile {
+    width: 100%;
+}
+.select__blk {
+    margin-bottom: 16px;
+}
+
+.Ingredient__left {
+    margin-bottom: 50px;
+}
+
+.Ingredient__left a {
+    width: 100%;
+    width: max-content;
+    margin: auto;
+}
+.Ingredient__right h4 {
+    font-size: 16px;
+}
+
+.Criteria__blk ul li {
+    font-size: 15px;
+}
+
+.usage__blk ul li h5 {
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.usage__blk ul li span {
+    font-size: 15px;
+}
+
+.Ingredient__area {
+    padding: 0 20px 0px;
+}
+.Evaluation__blk .flex {
+    gap: 26px;
+    flex-direction: column;
+    align-items: start;
+}
+
+.Evaluation__blk .flex ul li span {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.acMap__blk {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+}
+.Activity__MAP {
+    max-width: calc(100% - 40px);
+}
+
+.Amap__nav ul li button {
+    font-size: 16px;
+    padding: 6px 0;
+}
+
+.Amap__nav ul li button:before {
+    bottom: -7px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 10px;
+}
+
+.Evaluation__blk {
+    max-width: calc(100% - 40px);
+    margin: 40px auto 50px;
+}
+
+.Evaluation__blk h4 {
+    font-size: 20px;
+}
+
+.Evaluation__blk .flex h4 {
+    max-width: 100%;
+}
+.Evaluation__blk h4 span {
+    display: block;
+    font-size: 16px;
+}
+
+.Evaluation__blk .flex ul li h1 {
+    font-size: 32px;
+}
+
+.Amap__nav ul li a {
+    font-size: 14px;
+}
+
+.acMap__blk > h6 {
+    font-size: 12px;
+}
+
+.acMap__text textarea {
+    font-size: 10px;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.acMap__text {
+    height: 220px;
+    position: relative;
+}
+
+.acMap__text a {
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+.acMap__text a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.header__text h2{
+    font-size: 15px;
+}
+
+.header__text__two span {
+    font-size: 12px;
+    margin-top: -8px;
+    display: block;
+}
+
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.box-body:after {
+    max-width: 427px;
+}
+.Amap__nav ul li button:before {
+    bottom: -8px;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    height: 10px;
+}
+.acMap__blk {
+    width: calc(50% - 16px);
+}
+}
